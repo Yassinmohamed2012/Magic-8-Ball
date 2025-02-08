@@ -14,3 +14,13 @@ responses = ["yes definetily",'no, not now','ask again later ','its certain','ve
 
 def get_random_response():
     return random.choice(responses)
+def play_again():
+    while True:
+        choice=input("do you want to ask another question(yes/no):  ").strip().lower()
+        if choice=="yes":
+            return True
+        elif choice=="no":
+            print("thanks for playing, goodbye")
+            return False
+        else:
+            print("invalid input, please enter yes or no")
