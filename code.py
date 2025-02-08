@@ -24,3 +24,6 @@ def play_again():
             return False
         else:
             print("invalid input, please enter yes or no")
+         
+def display_response(response):
+    print("\n🔮 The Magic 8-Ball says:", response )
