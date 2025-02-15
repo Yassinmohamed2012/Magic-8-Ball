@@ -15,6 +15,7 @@ responses = ["yes definetily",'no, not now','ask again later ','its certain','ve
 def get_random_response():
     return random.choice(responses)
 <<<<<<< HEAD
+<<<<<<< HEAD
 def play_again():
     while True:
         choice=input("do you want to ask another question(yes/no):  ").strip().lower()
@@ -31,3 +32,4 @@ def display_response(response):
 =======
 >>>>>>> parent of b4bad0e (Merge branch 'feature-playe-again')
 =======
+>>>>>>> parent of b4bad0e (Merge branch 'feature-playe-again')
